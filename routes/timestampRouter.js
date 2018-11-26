@@ -1,4 +1,5 @@
 const express = require('express')
+
 const timestampController = require('../controllers/timestampController')()
 
 const timestampRouter = express.Router();

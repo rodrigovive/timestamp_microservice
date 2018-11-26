@@ -5,7 +5,7 @@ const morgan = require('morgan');
 const path = require('path');
 const app = express();
 const timestampRouter = require('./routes/timestampRouter')()
-const timestampController = require('./controllers/timestampController')()
+
 app.use(morgan('tiny'));
 
 const port = process.env.PORT || 3000;
